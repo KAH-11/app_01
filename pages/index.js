@@ -15,7 +15,7 @@ export default function Home() {
     <Navbar />
 
     <Banner imagePath="Good-Pizza.jpg" text="Welcome to our website!"/>
-    <TwoDiv />
+    <TwoDiv imagePath="Good-Pizza.jpg" text="Our special pizza is generously adorned with a rich tomato sauce, vibrant with the freshness of ripe tomatoes and a delicate hint of herbs and spices. The cheese, a melty masterpiece, blankets the sauce, providing a luscious and creamy backdrop to the medley of flavors to come."/>
 
     <Footer />
 
