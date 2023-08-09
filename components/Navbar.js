@@ -53,13 +53,13 @@ const Navbar = () => {
                         <Link href="/" class="hover:bg-[#0059BF] p-2 rounded-[10px]">Home</Link>
                     </li>
                     <li class="mx-4 my-6 md:my-0">
-                        <Link href="/" class="hover:bg-[#0059BF] p-2 rounded-[10px]">About</Link>
+                        <Link href="/about" class="hover:bg-[#0059BF] p-2 rounded-[10px]">About</Link>
                     </li>
                     <li class="mx-4 my-6 md:my-0">
-                        <Link href="/" class="hover:bg-[#0059BF] p-2 rounded-[10px]">Services</Link>
+                        <Link href="/services" class="hover:bg-[#0059BF] p-2 rounded-[10px]">Services</Link>
                     </li>
                     <li class="mx-4 my-6 md:my-0">
-                        <Link href="/" class="hover:bg-[#0059BF] p-2 rounded-[10px]">Contact</Link>
+                        <Link href="/contact" class="hover:bg-[#0059BF] p-2 rounded-[10px]">Contact</Link>
                     </li>
                 </ul>
 

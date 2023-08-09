@@ -11,9 +11,9 @@ const Footer = () => {
                 <div class="mt-[20px]">
                     <ul >
                         <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] p-2 rounded-[10px]" href="/">Home</Link></li>
-                        <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] p-2 rounded-[10px]" href="/">About</Link></li>
-                        <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] p-2 rounded-[10px]" href="/">Services</Link></li>
-                        <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] p-2 rounded-[10px]" href="/">Contact</Link></li>
+                        <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] p-2 rounded-[10px]" href="/about">About</Link></li>
+                        <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] p-2 rounded-[10px]" href="/services">Services</Link></li>
+                        <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] p-2 rounded-[10px]" href="/contact">Contact</Link></li>
                     </ul>
                 </div>
 
