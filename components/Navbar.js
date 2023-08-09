@@ -38,9 +38,11 @@ const Navbar = () => {
 
                 <div class="flex justify-between items-center">
 
-                    <span class="md:text-3xl text-2xl cursor-pointer">
-                        MegaStore
-                    </span>
+                    <Link href="/">
+                        <span class="md:text-3xl text-2xl cursor-pointer">
+                            MegaStore
+                        </span>
+                    </Link>
 
                     <span>
                         <i class="text-white text-2xl cursor-pointer mx-2 md:hidden block"><FontAwesomeIcon icon={isLiked ? faBars : faXmark} onClick={handleIconClick}/></i>
