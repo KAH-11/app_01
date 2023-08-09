@@ -32,34 +32,38 @@ const Navbar = () => {
 
     return ( 
         <>
-        <nav class="bg-[#011F44] p-5 shadow text-white md:flex md:items-center md:justify-between">
+        <nav class="bg-[#011F44]">
 
-            <div class="flex justify-between items-center">
+            <div class="p-5 shadow text-white md:flex md:items-center md:justify-between 2xl:container mx-auto">
 
-                <span class="md:text-3xl text-2xl cursor-pointer">
-                    MegaStore
-                </span>
+                <div class="flex justify-between items-center">
 
-                <span>
-                    <i class="text-white text-2xl cursor-pointer mx-2 md:hidden block"><FontAwesomeIcon icon={isLiked ? faBars : faXmark} onClick={handleIconClick}/></i>
-                </span>
+                    <span class="md:text-3xl text-2xl cursor-pointer">
+                        MegaStore
+                    </span>
 
-            </div> 
+                    <span>
+                        <i class="text-white text-2xl cursor-pointer mx-2 md:hidden block"><FontAwesomeIcon icon={isLiked ? faBars : faXmark} onClick={handleIconClick}/></i>
+                    </span>
 
-            <ul class="md:text-2xl text-1xl md:flex md:items-center md:block hidden md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
-                <li class="mx-4 my-6 md:my-0">
-                    <Link href="/" class="hover:bg-[#0059BF] p-2 rounded-[10px]">Home</Link>
-                </li>
-                <li class="mx-4 my-6 md:my-0">
-                    <Link href="/" class="hover:bg-[#0059BF] p-2 rounded-[10px]">About</Link>
-                </li>
-                <li class="mx-4 my-6 md:my-0">
-                    <Link href="/" class="hover:bg-[#0059BF] p-2 rounded-[10px]">Services</Link>
-                </li>
-                <li class="mx-4 my-6 md:my-0">
-                    <Link href="/" class="hover:bg-[#0059BF] p-2 rounded-[10px]">Contact</Link>
-                </li>
-            </ul>
+                </div> 
+
+                <ul class="md:text-2xl text-1xl md:flex md:items-center md:block hidden md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+                    <li class="mx-4 my-6 md:my-0">
+                        <Link href="/" class="hover:bg-[#0059BF] p-2 rounded-[10px]">Home</Link>
+                    </li>
+                    <li class="mx-4 my-6 md:my-0">
+                        <Link href="/" class="hover:bg-[#0059BF] p-2 rounded-[10px]">About</Link>
+                    </li>
+                    <li class="mx-4 my-6 md:my-0">
+                        <Link href="/" class="hover:bg-[#0059BF] p-2 rounded-[10px]">Services</Link>
+                    </li>
+                    <li class="mx-4 my-6 md:my-0">
+                        <Link href="/" class="hover:bg-[#0059BF] p-2 rounded-[10px]">Contact</Link>
+                    </li>
+                </ul>
+
+            </div>
 
         </nav>
         </>
