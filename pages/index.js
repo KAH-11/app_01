@@ -15,7 +15,7 @@ export default function Home() {
     <Navbar />
 
     <Banner imagePath="Good-Pizza.jpg" text="Welcome to our website!"/>
-    {/* <TwoDiv /> */}
+    <TwoDiv />
 
     <Footer />
 

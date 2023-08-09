@@ -8,20 +8,20 @@ const Footer = () => {
             
             <div class="mt-[20px]">
                 <ul >
-                    <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] hover:p-2 rounded-[10px]" href="/">Home</Link></li>
-                    <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] hover:p-2 rounded-[10px]" href="/">About</Link></li>
-                    <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] hover:p-2 rounded-[10px]" href="/">Services</Link></li>
-                    <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] hover:p-2 rounded-[10px]" href="/">Contact</Link></li>
+                    <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] p-2 rounded-[10px]" href="/">Home</Link></li>
+                    <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] p-2 rounded-[10px]" href="/">About</Link></li>
+                    <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] p-2 rounded-[10px]" href="/">Services</Link></li>
+                    <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] p-2 rounded-[10px]" href="/">Contact</Link></li>
                 </ul>
             </div>
 
             <div class="mt-[20px]">
                 <ul>
-                    <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] hover:p-2 rounded-[10px]" href="/" ><FontAwesomeIcon icon={faFacebook} /></Link></li>
-                    <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] hover:p-2 rounded-[10px]" href="/"><FontAwesomeIcon icon={faTwitter} /></Link></li>
-                    <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] hover:p-2 rounded-[10px]" href="/"><FontAwesomeIcon icon={faLinkedin} /></Link></li>
-                    <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] hover:p-2 rounded-[10px]" href="/"><FontAwesomeIcon icon={faYoutube} /></Link></li>
-                    <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] hover:p-2 rounded-[10px]" href="/"><FontAwesomeIcon icon={faInstagram} /></Link></li>
+                    <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] p-2 rounded-[10px]" href="/" ><FontAwesomeIcon icon={faFacebook} /></Link></li>
+                    <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] p-2 rounded-[10px]" href="/"><FontAwesomeIcon icon={faTwitter} /></Link></li>
+                    <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] p-2 rounded-[10px]" href="/"><FontAwesomeIcon icon={faLinkedin} /></Link></li>
+                    <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] p-2 rounded-[10px]" href="/"><FontAwesomeIcon icon={faYoutube} /></Link></li>
+                    <li class="mx-2 inline"><Link class="hover:bg-[#0059BF] p-2 rounded-[10px]" href="/"><FontAwesomeIcon icon={faInstagram} /></Link></li>
                 </ul>
             </div>
 

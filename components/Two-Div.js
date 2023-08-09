@@ -3,15 +3,19 @@ const TwoDiv = (props) => {
     const { imagePath , text } = props;
 
     return ( 
-        <div class="w-[80%] bg-black h-20 mt-10 text-center">
+        <div class="justify-center text-center">
 
-            <div>
-                <p>bbbbbbbbbbbbbbbbbbb</p>
-                <p>bbbbbbbbbbbbbbbbbbb</p>
-            </div>
+            <div class="w-[80%] bg-black h-10">
 
-            <div>
-                <img src="" alt="" />
+                {/* <div>
+                    <p>bbbbbbbbbbbbbbbbbbb</p>
+                    <p>bbbbbbbbbbbbbbbbbbb</p>
+                </div> */}
+
+                {/* <div>
+                    <img src="" alt="" />
+                </div> */}
+
             </div>
 
         </div>

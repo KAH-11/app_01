@@ -48,16 +48,16 @@ const Navbar = () => {
 
             <ul class="md:text-2xl text-1xl md:flex md:items-center md:block hidden md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
                 <li class="mx-4 my-6 md:my-0">
-                    <Link href="/" class="hover:bg-[#0059BF] hover:p-2 rounded-[10px]">Home</Link>
+                    <Link href="/" class="hover:bg-[#0059BF] p-2 rounded-[10px]">Home</Link>
                 </li>
                 <li class="mx-4 my-6 md:my-0">
-                    <Link href="/" class="hover:bg-[#0059BF] hover:p-2 rounded-[10px]">About</Link>
+                    <Link href="/" class="hover:bg-[#0059BF] p-2 rounded-[10px]">About</Link>
                 </li>
                 <li class="mx-4 my-6 md:my-0">
-                    <Link href="/" class="hover:bg-[#0059BF] hover:p-2 rounded-[10px]">Services</Link>
+                    <Link href="/" class="hover:bg-[#0059BF] p-2 rounded-[10px]">Services</Link>
                 </li>
                 <li class="mx-4 my-6 md:my-0">
-                    <Link href="/" class="hover:bg-[#0059BF] hover:p-2 rounded-[10px]">Contact</Link>
+                    <Link href="/" class="hover:bg-[#0059BF] p-2 rounded-[10px]">Contact</Link>
                 </li>
             </ul>
 
