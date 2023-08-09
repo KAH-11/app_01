@@ -8,7 +8,7 @@ const TwoDiv = (props) => {
             <div class="md:p-20 p-10 md:h-[40vh] h-auto flex flex-col md:flex-row items-center 2xl:container mx-auto">
 
                 <div class="md:w-1/2 p-4">
-                    <p class="text-2xl text-white text-[#011F44] text-justify">{text}</p>
+                    <p class="text-2xl text-[#011F44] text-justify">{text}</p>
                 </div>
 
                 <div class="md:w-1/2 p-4">
