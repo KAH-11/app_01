@@ -11,8 +11,8 @@ const TitleText = (props) => {
             </div>
 
             {/* Text */}
-            <div class="text-center p-5 w-full text-justify ">
-                <p class="text-2xl text-[#011F44]">{text}</p>
+            <div class="text-center p-5 w-full text-justify text-2xl text-[#011F44]">
+                {text}
             </div>
 
         </div>
