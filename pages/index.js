@@ -25,16 +25,12 @@ export default function Home() {
     <TwoDiv imagePath="Good-Pizza.jpg" text="Our special pizza is generously adorned with a rich tomato sauce, vibrant with the freshness of ripe tomatoes and a delicate hint of herbs and spices. The cheese, a melty masterpiece, blankets the sauce, providing a luscious and creamy backdrop to the medley of flavors to come."/>
     
     <TitleText title="Categories" text={
-    <div class="w-full grid md:grid-cols-3 md:p-20 gap-10 2xl:container mx-auto">
+    <div class="w-full grid md:grid-cols-4 md:p-20 gap-10 2xl:container mx-auto">
       {
         Categories.map( (cat , index) => (
           <CategoryCard key={index} img_url={cat.url} cat_name={cat.name}/>
         ) )
       }
-      {/* <CategoryCard img_url="watches.png" cat_name="Watches"/>
-      <CategoryCard img_url="phones.jpg" cat_name="Phones"/>
-      <CategoryCard img_url="bags.jpeg" cat_name="Bags"/>
-      <CategoryCard img_url="clothes.jpg" cat_name="Clothes"/> */}
     </div>
     } />
     
