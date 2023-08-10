@@ -7,7 +7,7 @@ export default function About() {
   return (
     <>
 
-    <Navbar />
+    <Navbar active="about"/>
 
     <Banner imagePath="back-1.jpg" text="About us"/>
     <TitleText title="Why Choose Us" text="

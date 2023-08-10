@@ -7,7 +7,7 @@ export default function Services() {
   return (
     <>
 
-    <Navbar />
+    <Navbar active="services"/>
 
     <Banner imagePath="back-1.jpg" text="Our eCommerce Services"/>
     <TitleText title="Our Services" text="
