@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <>
 
-    <Navbar active="contact"/>
+    <Navbar />
 
     <Banner imagePath="Good-Pizza.jpg" text="Welcome to our website!"/>
     
