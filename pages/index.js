@@ -22,8 +22,11 @@ export default function Home() {
     <Navbar />
 
     <Banner imagePath="back-2.jpg" text="Welcome to our website!"/>
-    <TwoDiv imagePath="Good-Pizza.jpg" text="Our special pizza is generously adorned with a rich tomato sauce, vibrant with the freshness of ripe tomatoes and a delicate hint of herbs and spices. The cheese, a melty masterpiece, blankets the sauce, providing a luscious and creamy backdrop to the medley of flavors to come."/>
     
+    <TitleText title="Special Item !" text={
+      <TwoDiv imagePath="special-01.jpg" text="The Police Watch stands as a resilient and functional companion designed for law enforcement professionals. With its rugged construction, clear visibility in various conditions, and practical features like luminous hands and markers, it serves as a reliable tool on duty. Beyond its utilitarian aspects, the watch embodies the values of duty and service, reminding wearers of their commitment to maintaining safety and order within their communities."/>
+    } />
+
     <TitleText title="Categories" text={
     <div class="w-full grid md:grid-cols-4 md:p-20 gap-10 2xl:container mx-auto">
       {
