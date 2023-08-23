@@ -4,6 +4,8 @@ import Banner from '@/components/Banner'
 import TwoDiv from '@/components/Two-Div'
 import CategoryCard from '@/components/CategoryCard'
 import TitleText from '@/components/Title-Text'
+import Swiper from '@/components/Swiper'
+import AccordionItem from '@/components/AccordionItem'
 
 
 export default function Home() {
@@ -15,6 +17,13 @@ export default function Home() {
     { name: 'Clothes', url: 'clothes.jpg' },
   ];
 
+  const NewItems = [
+    { name: 'Item-1', url: 'back-1.jpg' },
+    { name: 'Item-2', url: 'back-2.jpg' },
+    { name: 'Item-3', url: 'back-1.jpg' },
+    { name: 'Item-4', url: 'back-2.jpg' },
+  ];
+
 
   return (
     <>
@@ -22,6 +31,12 @@ export default function Home() {
     <Navbar />
 
     <Banner imagePath="back-2.jpg" text="Welcome to our website!"/>
+
+    <AccordionItem />
+
+    <TitleText title="New Items !" text={
+      <Swiper items={NewItems}/>
+    } />
     
     <TitleText title="Special Item !" text={
       <TwoDiv imagePath="special-01.jpg" text="The Police Watch stands as a resilient and functional companion designed for law enforcement professionals. With its rugged construction, clear visibility in various conditions, and practical features like luminous hands and markers, it serves as a reliable tool on duty. Beyond its utilitarian aspects, the watch embodies the values of duty and service, reminding wearers of their commitment to maintaining safety and order within their communities."/>
